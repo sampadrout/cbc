@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Wordpress Sample Test",
+    "uid" : "9a028b0f7d6e7015",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1611054994289,
+      "stop" : 1611055014573,
+      "duration" : 20284
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome", "web" ]
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,233 @@
+{
+  "uid" : "1e80efc2b5cd4994",
+  "name" : "Wordpress Sample Test",
+  "fullName" : "Wordpress_Sample_Test.testSampleWordPress",
+  "historyId" : "838368328a9f64ceb9d8cb121a51d9d",
+  "time" : {
+    "start" : 1611054524399,
+    "stop" : 1611054560121,
+    "duration" : 35722
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupDriver",
+    "time" : {
+      "start" : 1611054511507,
+      "stop" : 1611054514198,
+      "duration" : 2691
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "startAppiumServer",
+    "time" : {
+      "start" : 1611054511479,
+      "stop" : 1611054511492,
+      "duration" : 13
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to page step...",
+      "time" : {
+        "start" : 1611054524601,
+        "stop" : 1611054538383,
+        "duration" : 13782
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://www.wordpress.com"
+      } ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify WordPress HomePage displayed",
+      "time" : {
+        "start" : 1611054538383,
+        "stop" : 1611054538458,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on the 'Start Your SIte Button'",
+      "time" : {
+        "start" : 1611054538462,
+        "stop" : 1611054538563,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify 'Create Your Account' page displayed",
+      "time" : {
+        "start" : 1611054538572,
+        "stop" : 1611054551704,
+        "duration" : 13132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "WordPress Create Account page has displayed...",
+        "time" : {
+          "start" : 1611054551704,
+          "stop" : 1611054551704,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Create New Wordpress user account...",
+      "time" : {
+        "start" : 1611054551706,
+        "stop" : 1611054560118,
+        "duration" : 8412
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardownDriver",
+    "time" : {
+      "start" : 1611054560136,
+      "stop" : 1611054560275,
+      "duration" : 139
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "stopAppiumServer",
+    "time" : {
+      "start" : 1611054560278,
+      "stop" : 1611054560278,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Wordpress_Sample_Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Wordpress_Sample_Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSampleWordPress"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "WordPress Account"
+  }, {
+    "name" : "subSuite",
+    "value" : "Wordpress_Sample_Test"
+  }, {
+    "name" : "host",
+    "value" : "ALIPL0932.local"
+  }, {
+    "name" : "thread",
+    "value" : "13422@ALIPL0932.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "platformName",
+    "value" : "chrome"
+  }, {
+    "name" : "platformType",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e80efc2b5cd4994.json",
+  "parameterValues" : [ "chrome", "web" ]
+}
