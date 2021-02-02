@@ -1,0 +1,28 @@
+INFO    2021-02-01 19:46:34,265 [TestNG-test=WordPress Account-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-02-01 19:46:34,271 [TestNG-test=WordPress Account-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-02-01 19:46:34,272 [TestNG-test=WordPress Account-4] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-02-01 19:46:34,274 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress Account
+INFO    2021-02-01 19:49:27,570 [TestNG-test=WordPress Account-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-02-01 19:49:27,577 [TestNG-test=WordPress Account-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-02-01 19:49:27,579 [TestNG-test=WordPress Account-4] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-02-01 19:49:27,581 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress Account
+INFO    2021-02-01 19:50:26,991 [TestNG-test=WordPress Account-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-02-01 19:50:26,997 [TestNG-test=WordPress Account-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-02-01 19:50:26,999 [TestNG-test=WordPress Account-4] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-02-01 19:50:27,001 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress Account
+INFO    2021-02-01 20:20:16,033 [TestNG-test=WordPress Account-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-02-01 20:20:16,039 [TestNG-test=WordPress Account-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-02-01 20:20:16,040 [TestNG-test=WordPress Account-4] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-02-01 20:20:16,041 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress Account
+INFO    2021-02-01 20:49:00,276 [TestNG-test=WordPress Account-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-02-01 20:49:00,285 [TestNG-test=WordPress Account-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-02-01 20:49:00,286 [TestNG-test=WordPress Account-4] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-02-01 20:49:00,288 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress Account
+INFO    2021-02-01 21:03:43,776 [TestNG-test=WordPress Account-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-02-01 21:03:43,785 [TestNG-test=WordPress Account-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-02-01 21:03:43,786 [TestNG-test=WordPress Account-4] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-02-01 21:03:43,789 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress Account
+INFO    2021-02-02 09:37:33,930 [TestNG-test=WordPress Account-1] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testSampleWordPressAccount - Wordpress Sample Create Account Test
+INFO    2021-02-02 09:37:33,937 [TestNG-test=WordPress Account-2] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testValidLogin - Wordpress Valid_Login Test
+INFO    2021-02-02 09:37:33,938 [TestNG-test=WordPress Account-4] com.ui.core.framework.utilities.LoadLogger  - TEST FAIL: testInvalidLogin - Wordpress Invalid_Login Test
+INFO    2021-02-02 09:37:33,939 [main] com.ui.core.framework.utilities.LoadLogger  - TEST FINISH: WordPress Account

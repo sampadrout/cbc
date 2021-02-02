@@ -2,6 +2,8 @@ package poms;
 
 
 
+import java.util.Map;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -37,7 +39,7 @@ public class CreateAccountPage extends BasePage {
 
 	@Step("Verify 'Create Your Account' page displayed")
 	public boolean verifyCreateAccountPageDisplayed() throws Exception {
-		if(getLabel(wait.waitForElementToBeVisible(lbl_CreateAccountPageTitle, webdriver)).contains("vfbfbfgbfg")) {
+		if(getLabel(wait.waitForElementToBeVisible(lbl_CreateAccountPageTitle, webdriver)).contains("Let's get")) {
 			Allure.step("WordPress Create Account page has displayed...");
 			return true;
 		}
@@ -46,15 +48,14 @@ public class CreateAccountPage extends BasePage {
 	}
 
 	@Step("Create New Wordpress user account...")
-	public void createUserAccount() throws Exception {
-		type(txt_EmailAddress, "cbc_sample@test.com");
+	public void createUserAccount(Map<String, String> data) throws Exception {
+		type(txt_EmailAddress, data.get("emailAddress"));
 		wait.staticWait(2000);
-		type(txt_Username, "cbc_sample");
+		type(txt_Username, data.get("userName"));
 		wait.staticWait(2000);
-		type(txt_Password, "New@123_");
+		type(txt_Password, data.get("password"));
 		wait.staticWait(2000);
 		click(btn_CreateAccount);
-		wait.staticWait(2000);
 	}
 
 }

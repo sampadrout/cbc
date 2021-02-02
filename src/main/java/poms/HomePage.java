@@ -18,6 +18,9 @@ public class HomePage extends BasePage {
 
 	@FindBy(xpath = "//a[@id='lpc-button']")
 	private WebElement btn_StartYourSite;
+	
+	@FindBy(xpath = "//li[@class='x-nav-item x-nav-item--wide']/a[@title='Log In']")
+	private WebElement btn_LoginButton;
 
 	Wait wait = new Wait();
 
@@ -35,9 +38,14 @@ public class HomePage extends BasePage {
 		return checkElement(btn_StartYourSite);
 	}
 	
-	@Step("Click on the 'Start Your SIte Button'")
+	@Step("Click on the 'Start Your Site Button'")
 	public void clickStartYourSite() {
 		click(wait.waitForElementToBeClickable(btn_StartYourSite, webdriver));
+	}
+	
+	@Step("Click on the Login Button'")
+	public void clickLoginButton() {
+		click(wait.waitForElementToBeClickable(btn_LoginButton, webdriver));
 	}
 
 }

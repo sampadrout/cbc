@@ -9,12 +9,30 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Test Suite</th></tr>
-<tr><td><a href="#t0">WordPress Account</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">33,325</td><td></td><td></td></tr>
+<tr><td><a href="#t0">WordPress Account</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">109</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">WordPress Account &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Wordpress_Sample_Test</td><td><a href="#m0">testSampleWordPress</a></td><td rowspan="1">1611054984234</td><td rowspan="1">29618</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">WordPress Account &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.Wordpress_CreateAccount_Test</td><td><a href="#m0">testSampleWordPressAccount</a></td><td rowspan="1">1612238853930</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="2">tests.Wordpress_Login_Test</td><td><a href="#m1">testInvalidLogin</a></td><td rowspan="1">1612238853938</td><td rowspan="1">0</td></tr><tr class="failedodd"><td><a href="#m2">testValidLogin</a></td><td rowspan="1">1612238853937</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>WordPress Account</h2><h3 id="m0">Wordpress_Sample_Test#testSampleWordPress</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Create Your Account Page has not Displayed... expected [true] but found [false]
-	at Wordpress_Sample_Test.testSampleWordPress(Wordpress_Sample_Test.java:23)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>WordPress Account</h2><h3 id="m0">tests.Wordpress_CreateAccount_Test#testSampleWordPressAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [testSampleWordPressAccount] with [interface java.util.Map].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.Wordpress_Login_Test#testInvalidLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [testInvalidLogin] with [interface java.util.Map].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.Wordpress_Login_Test#testValidLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [testValidLogin] with [interface java.util.Map].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

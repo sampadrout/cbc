@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
-  <test thread-count="5" name="WordPress Account(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]" parallel="classes">
+  <test thread-count="5" name="WordPress Account(failed)" parallel="classes">
     <parameter name="platformType" value="web"/>
     <parameter name="platformName" value="chrome"/>
     <classes>
-      <class name="Wordpress_Sample_Test">
+      <class name="tests.Wordpress_CreateAccount_Test">
         <methods>
           <include name="setupDriver"/>
-          <include name="testSampleWordPress"/>
+          <include name="testSampleWordPressAccount"/>
           <include name="stopAppiumServer"/>
           <include name="startAppiumServer"/>
           <include name="teardownDriver"/>
         </methods>
-      </class> <!-- Wordpress_Sample_Test -->
+      </class> <!-- tests.Wordpress_CreateAccount_Test -->
+      <class name="tests.Wordpress_Login_Test">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="testValidLogin"/>
+          <include name="stopAppiumServer"/>
+          <include name="startAppiumServer"/>
+          <include name="testInvalidLogin"/>
+          <include name="teardownDriver"/>
+        </methods>
+      </class> <!-- tests.Wordpress_Login_Test -->
     </classes>
   </test> <!-- WordPress Account(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

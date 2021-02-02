@@ -1,43 +1,5 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "children" : [ {
-    "name" : "ALIPL0932.local",
-    "children" : [ {
-      "name" : "13422@ALIPL0932.local.main(1)",
-      "children" : [ {
-        "name" : "Wordpress Sample Test",
-        "uid" : "1e80efc2b5cd4994",
-        "parentUid" : "4d684b17ee1a5dd72839aaed743cdb6a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1611054524399,
-          "stop" : 1611054560121,
-          "duration" : 35722
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome", "web" ]
-      } ],
-      "uid" : "4d684b17ee1a5dd72839aaed743cdb6a"
-    }, {
-      "name" : "13877@ALIPL0932.local.main(1)",
-      "children" : [ {
-        "name" : "Wordpress Sample Test",
-        "uid" : "9a028b0f7d6e7015",
-        "parentUid" : "a6910e9232c74943dec54a2e7f5adb09",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611054994289,
-          "stop" : 1611055014573,
-          "duration" : 20284
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome", "web" ]
-      } ],
-      "uid" : "a6910e9232c74943dec54a2e7f5adb09"
-    } ],
-    "uid" : "11142ac2bc14822318e8f39e185ce382"
-  } ],
+  "children" : [ ],
   "name" : "timeline"
 }

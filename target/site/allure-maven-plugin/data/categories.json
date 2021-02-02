@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Create Your Account Page has not Displayed... expected [true] but found [false]",
-      "children" : [ {
-        "name" : "Wordpress Sample Test",
-        "uid" : "9a028b0f7d6e7015",
-        "parentUid" : "3e58492ab119dab4e7abc8af1b0332df",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611054994289,
-          "stop" : 1611055014573,
-          "duration" : 20284
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome", "web" ]
-      } ],
-      "uid" : "3e58492ab119dab4e7abc8af1b0332df"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
