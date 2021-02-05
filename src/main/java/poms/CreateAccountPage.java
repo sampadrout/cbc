@@ -1,7 +1,5 @@
 package poms;
 
-
-
 import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
