@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Test Suite" parallel="classes">
+<suite name="Test Suite" parallel="tests">
 
-	<test name="WordPress UI Automation" preserve-order="true">
-		<parameter name="platformType" value="web" />
-		<parameter name="platformName" value="chrome" />
-		<classes>
-			<class name="tests.Wordpress_Login_Test" />
-			<class name="tests.Wordpress_CreateAccount_Test" />
-		</classes>
-	</test> <!-- Test -->
+    <test name="WordPress UI Automation - 1">
+        <parameter name="platformType" value="web"/>
+        <parameter name="platformName" value="chrome"/>
+        <classes>
+            <class name="tests.Wordpress_Login_Test"/>
+        </classes>
+    </test>
+
+    <test name="WordPress UI Automation - 2">
+        <parameter name="platformType" value="web"/>
+        <parameter name="platformName" value="chrome"/>
+        <classes>
+            <class name="tests.Wordpress_CreateAccount_Test"/>
+        </classes>
+    </test> <!-- Test -->
 </suite> <!-- Suite -->

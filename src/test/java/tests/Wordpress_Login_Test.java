@@ -7,6 +7,7 @@ package tests;
 
 import java.util.Map;
 
+import com.ui.core.framework.db.testng.TestNGMongoDataProvider;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -23,7 +24,7 @@ import poms.LoginAccountPage;
 public class Wordpress_Login_Test extends BaseTest {
 	
 	@GetDataFromMongo(dbName = "accel_Zoho", collectionName = "environment_ui", appName = "accel_Zoho", envName = "environment", tcName = "TC02", dataType = "testcaseData")
-	@Test(description = "Wordpress Valid_Login Test", priority=1)
+	@Test(description = "Wordpress Valid_Login Test", priority=1, dataProviderClass = TestNGMongoDataProvider.class, dataProvider = "dataProviderMongo")
 	public void testValidLogin(Map<String, String> data) throws Exception {
 
 		page.getPageInstance(HomePage.class).navigateTo(data.get("url"));
@@ -40,7 +41,7 @@ public class Wordpress_Login_Test extends BaseTest {
 	}
 	
 	@GetDataFromMongo(dbName = "accel_Zoho", collectionName = "environment_ui", appName = "accel_Zoho", envName = "environment", tcName = "TC03", dataType = "testcaseData")
-	@Test(description = "Wordpress Invalid_Login Test", priority=2)
+	@Test(description = "Wordpress Invalid_Login Test", priority=2, dataProviderClass = TestNGMongoDataProvider.class, dataProvider = "dataProviderMongo")
 	public void testInvalidLogin(Map<String, String> data) throws Exception {
 
 		page.getPageInstance(HomePage.class).navigateTo(data.get("url"));

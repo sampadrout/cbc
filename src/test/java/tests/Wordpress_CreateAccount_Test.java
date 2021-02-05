@@ -7,6 +7,7 @@ package tests;
 
 import java.util.Map;
 
+import com.ui.core.framework.db.testng.TestNGMongoDataProvider;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -22,7 +23,7 @@ import poms.HomePage;
 public class Wordpress_CreateAccount_Test extends BaseTest {
 
 	@GetDataFromMongo(dbName = "accel_Zoho", collectionName = "environment_ui", appName = "accel_Zoho", envName = "environment", tcName = "TC01", dataType = "testcaseData")
-	@Test(description = "Wordpress Sample Create Account Test")
+	@Test(description = "Wordpress Sample Create Account Test", dataProviderClass = TestNGMongoDataProvider.class, dataProvider = "dataProviderMongo")
 	public void testSampleWordPressAccount(Map<String, String> data) throws Exception {
 
 		page.getPageInstance(HomePage.class).navigateTo(data.get("url"));
