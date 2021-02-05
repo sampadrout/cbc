@@ -50,7 +50,7 @@
                     <!-- <parallel>tests</parallel> -->
 <!--                    <threadCount>10</threadCount>-->
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
