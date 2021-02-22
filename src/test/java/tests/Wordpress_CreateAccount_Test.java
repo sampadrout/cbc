@@ -22,7 +22,7 @@ import poms.HomePage;
 @Listeners({ TestListener.class })
 public class Wordpress_CreateAccount_Test extends BaseTest {
 
-	@GetDataFromMongo(dbName = "accel_Zoho", collectionName = "environment_ui", appName = "accel_Zoho", envName = "environment", tcName = "TC01", dataType = "testcaseData")
+	@GetDataFromMongo(dbName = "ui_test", collectionName = "environment_ui", appName = "ui_test", envName = "environment", tcName = "TC01", dataType = "testcaseData")
 	@Test(description = "Wordpress Sample Create Account Test", dataProviderClass = TestNGMongoDataProvider.class, dataProvider = "dataProviderMongo")
 	public void testSampleWordPressAccount(Map<String, String> data) throws Exception {
 

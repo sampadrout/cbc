@@ -23,7 +23,7 @@ import poms.LoginAccountPage;
 @Listeners({ TestListener.class })
 public class Wordpress_Login_Test extends BaseTest {
 	
-	@GetDataFromMongo(dbName = "accel_Zoho", collectionName = "environment_ui", appName = "accel_Zoho", envName = "environment", tcName = "TC02", dataType = "testcaseData")
+	@GetDataFromMongo(dbName = "ui_test", collectionName = "environment_ui", appName = "ui_test", envName = "environment", tcName = "TC02", dataType = "testcaseData")
 	@Test(description = "Wordpress Valid_Login Test", priority=1, dataProviderClass = TestNGMongoDataProvider.class, dataProvider = "dataProviderMongo")
 	public void testValidLogin(Map<String, String> data) throws Exception {
 
@@ -40,7 +40,7 @@ public class Wordpress_Login_Test extends BaseTest {
 		Assert.assertTrue(page.getPageInstance(HomePage.class).verifyWordPressPageDisplayed(), "The Wordpress Homepage has not displayed...");
 	}
 	
-	@GetDataFromMongo(dbName = "accel_Zoho", collectionName = "environment_ui", appName = "accel_Zoho", envName = "environment", tcName = "TC03", dataType = "testcaseData")
+	@GetDataFromMongo(dbName = "ui_test", collectionName = "environment_ui", appName = "ui_test", envName = "environment", tcName = "TC03", dataType = "testcaseData")
 	@Test(description = "Wordpress Invalid_Login Test", priority=2, dataProviderClass = TestNGMongoDataProvider.class, dataProvider = "dataProviderMongo")
 	public void testInvalidLogin(Map<String, String> data) throws Exception {
 
