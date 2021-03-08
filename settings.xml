@@ -18,7 +18,7 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <url>https://sampadrout:74a7120aa1ebb90d947a52e0fc5ef378670a67a3@maven.pkg.github.com/sampadrout/ui-core-framework</url>
+                    <url>https://maven.pkg.github.com/sampadrout/ui-core-framework</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
@@ -31,7 +31,7 @@
         <server>
             <id>github</id>
             <username>sampadrout</username>
-            <password>74a7120aa1ebb90d947a52e0fc5ef378670a67a3</password>
+            <password>8924590bce32fb5e71829bd23f50e0584c15ca6e</password>
         </server>
     </servers>
 </settings>

@@ -17,7 +17,7 @@
         <dependency>
             <groupId>com.ui.automation.framework</groupId>
             <artifactId>ui-core-framework</artifactId>
-            <version>1.4-SNAPSHOT</version>
+            <version>1.4</version>
         </dependency>
     </dependencies>
 
