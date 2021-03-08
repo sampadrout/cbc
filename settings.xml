@@ -28,10 +28,21 @@
     </profiles>
 
     <servers>
-        <server>
+        <!--<server>
             <id>github</id>
             <username>sampadrout</username>
             <password>74a7120aa1ebb90d947a52e0fc5ef378670a67a3</password>
+        </server>-->
+        <server>
+            <id>github</id>
+            <configuration>
+                <httpHeaders>
+                    <property>
+                        <name>Authorization</name>
+                        <value>Bearer 74a7120aa1ebb90d947a52e0fc5ef378670a67a3</value>
+                    </property>
+                </httpHeaders>
+            </configuration>
         </server>
     </servers>
 </settings>
