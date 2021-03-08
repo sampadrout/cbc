@@ -15,4 +15,5 @@ jobs:
     - name: Run test
       env:
         SELENIUM_HUB_HOST: 'localhost'
-      run: mvn clean test -Denvironment=qa -DHUB_HOST=http://localhost:4444/wd/hub -s settings.xml
+        token: ${{ secrets.GITHUB_TOKEN }}
+      run: mvn -s settings.xml -V clean test -Denvironment=qa -DHUB_HOST=http://localhost:4444/wd/hub
