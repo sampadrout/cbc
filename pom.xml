@@ -17,9 +17,17 @@
         <dependency>
             <groupId>com.ui.automation.framework</groupId>
             <artifactId>ui-core-framework</artifactId>
-            <version>1.4</version>
+            <version>LATEST</version>
         </dependency>
     </dependencies>
+
+<!--    <dependencies>
+        <dependency>
+            <groupId>com.ui.automation.framework</groupId>
+            <artifactId>ui-core-framework</artifactId>
+            <version>1.4</version>
+        </dependency>
+    </dependencies>-->
 
     <repositories>
         <repository>
