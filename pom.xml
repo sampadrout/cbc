@@ -29,6 +29,9 @@
         <repository>
             <id>github</id>
             <url>https://maven.pkg.github.com/sampadrout/ui-core-framework</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
