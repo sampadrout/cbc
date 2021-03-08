@@ -7,11 +7,11 @@ on:
 jobs:
   tests:
     runs-on: ubuntu-latest
-    name: Zalenium Server 
+    name: Zalenium Server
     steps:
     - uses: actions/checkout@v2
-    - name: Start Zalenium Server
-      uses: ajinx/zalenium@v1.1
+    - name: Zalenium Server
+      uses: ajinx/zalenium@1.1
     - name: Run test
       env:
         SELENIUM_HUB_HOST: 'localhost'
