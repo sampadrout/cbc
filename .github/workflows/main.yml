@@ -15,5 +15,5 @@ jobs:
     - name: Run test
       env:
         SELENIUM_HUB_HOST: 'localhost'
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        token: 74a7120aa1ebb90d947a52e0fc5ef378670a67a3
       run: mvn -s settings.xml clean test -Denvironment=qa -DHUB_HOST=http://localhost:4444/wd/hub
